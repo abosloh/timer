@@ -1,19 +1,10 @@
+
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from time import time
+from time import sleep
 from sys import stdout
 
-# sleep the programe 1,2,3,... seconds
-def sleep(sec):
-    
-    t = int(time()) # get initial time as seconds
-    # when the real time greater than initial time + parameter seconds
-    # break while and exit from function
-    while True:
-        if time()>t+1:
-            break
-        
 
 # replace seconds to clock h:m:s (00:00:00)
 def getClock(s):
